@@ -1,0 +1,58 @@
+/* common start */
+.text-justify{
+    text-align: justify;
+}
+.section-title span{
+    position: relative;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #17a2b8;
+    padding-bottom: 6px;
+}
+.section-title span::after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 20%;
+    width: 60%;
+    height: 3px;
+    background: #17a2b8;
+}
+
+/* common end */
+
+/* Contact section start */
+.address-area h4{
+    color: #333;
+    font-weight: 600;
+}
+.address-area a{
+    color: #666;
+}
+.address-area i{
+    color: #30C39E;
+}
+.address-area iframe{
+    border: 7px solid #d4d4d4;
+    width: 100%;
+    min-height: 200px;
+}
+.contact-form i{
+    color: #30C39E;
+}
+.contact-form .btn-primary {
+    color: #fff;
+    background-color: #0A8EA0;
+    border-color: #0A8EA0;
+    border: 2px solid;
+}
+.contact-form .btn-primary:hover {
+    color: #666;
+    background-color: #fff;
+    border-color: #666;
+}
+/* Contact section end */
+
+
+
+
